@@ -71,16 +71,6 @@
 
 ---
 
-## 🏗️ Join Our Slack Community
-
-👉 https://www.launchpass.com/devops-talks  
-
-- 🚀 DevOps growth  
-- 🌱 Daily learning  
-- 🤝 Community support  
-
----
-
 ## 📚 Blogs
 
 👉 https://blog.clouddrove.com/  
