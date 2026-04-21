@@ -7,9 +7,11 @@
 
 <p align="center">
 
-![Terraform](https://img.shields.io/badge/Terraform-%3E%3D1.3-blueviolet)
 ![Provider](https://img.shields.io/badge/Provider-Hetzner%20Cloud-orange)
 ![Checkov](https://img.shields.io/badge/Security-Checkov-green)
+[![License: MPL-2.0](https://img.shields.io/badge/License-MPL--2.0-blue.svg)](https://opensource.org/licenses/MPL-2.0)
+[![Terraform](https://img.shields.io/badge/Terraform-%3E%3D1.0-blueviolet)](https://www.terraform.io/)
+[![OpenTofu](https://img.shields.io/badge/OpenTofu-Compatible-yellow)](https://opentofu.org/)
 
 </p>
 
@@ -41,6 +43,20 @@
 **Optional:**
 - tflint  
 - tfsec  
+
+---
+
+### Available Modules
+
+| Module | Description | Version |
+|--------|-------------|---------|
+| [terraform-hcloud-labels](https://github.com/terraform-hc-modules/terraform-hcloud-labels) | Naming and labeling utility | ![](https://img.shields.io/github/v/release/terraform-hc-modules/terraform-hcloud-labels?label=) |
+| [terraform-hcloud-network](https://github.com/terraform-hc-modules/terraform-hcloud-network) | VPC, Firewall, Load Balancer | ![](https://img.shields.io/github/v/release/terraform-hc-modules/terraform-hcloud-network?label=) |
+| [terraform-hcloud-compute](https://github.com/terraform-hc-modules/terraform-hcloud-compute) | Server, Volume, SSH Key, Placement Group | ![](https://img.shields.io/github/v/release/terraform-hc-modules/terraform-hcloud-compute?label=) |
+| [terraform-hcloud-ip](https://github.com/terraform-hc-modules/terraform-hcloud-ip) | Primary IP, Floating IP, rDNS | ![](https://img.shields.io/github/v/release/terraform-hc-modules/terraform-hcloud-ip?label=) |
+| [terraform-hcloud-certificate](https://github.com/terraform-hc-modules/terraform-hcloud-certificate) | SSL/TLS Certificates (Managed & Uploaded) | ![](https://img.shields.io/github/v/release/terraform-hc-modules/terraform-hcloud-certificate?label=) |
+| [terraform-hcloud-dns](https://github.com/terraform-hc-modules/terraform-hcloud-dns) | DNS Zones and Records | ![](https://img.shields.io/github/v/release/terraform-hc-modules/terraform-hcloud-dns?label=) |
+| [terraform-hcloud-storage-box](https://github.com/terraform-hc-modules/terraform-hcloud-storage-box) | Storage Box (Beta) | ![](https://img.shields.io/github/v/release/terraform-hc-modules/terraform-hcloud-storage-box?label=&include_prereleases) |
 
 ---
 
